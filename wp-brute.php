@@ -1,9 +1,9 @@
 <?php
 
-require_once 'inc/torsock.php';
-require_once 'inc/system.php';
-require_once 'inc/arg.php';
-require_once 'inc/packet.php';
+require_once 'torsock.php';
+require_once 'system.php';
+require_once 'arg.php';
+require_once 'packet.php';
 
 //Run bootstrapper and determine run time arguments.
 if (!wpbrute_bootstrap()) {
